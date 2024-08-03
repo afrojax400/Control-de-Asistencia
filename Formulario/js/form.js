@@ -13,7 +13,7 @@ form.addEventListener('submit', function (event) {
     let career = document.getElementById('carrera').value;
     let section = document.getElementById('seccion').value;
     let teacher = document.getElementById('profesor').value;
-    let subjet1 = document.getElementById('asignatura').value;
+    let subjet = document.getElementById('asignatura').value;
 
     //si dejan los campos vacíos un error
     if (name.trim() === "" || lastName.trim() === "" || identificationCard.trim() === "" || career.trim() === "" || section === 'Elige una opción' || teacher === 'Elige una opción' || subjet === 'Elige una opción') {
