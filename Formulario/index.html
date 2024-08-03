@@ -1,0 +1,105 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Asistencia</title>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.3/dist/sweetalert2.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.3/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="css/form.css">
+   
+    </head>
+    <body>
+    
+    
+    <div id="container" class="container">
+    <form  class="form-container" id="form-container" autocomplete="off">
+       
+
+    
+    <div class="h1-logo">
+      <h1>REGISTRO</h1>
+      <img src="https://i.ibb.co/fHbVmm5/9b073f08-0790-4d57-ac03-e49236890e9c.jpg" alt="Logo">
+    </div>
+   
+    <div>
+      <label for="nombre">Nombres</label>
+      <input  class="opcion1" name="nombre"  type="text"  title="SOLO PUEDES INGRESAR LETRAS" pattern="[a-zA-ZáéíóúñÁÉÍÓÚÑ\s]+" title=""  minlength="2" maxlength="25" >
+    </div>
+   
+    <br>
+    <div>
+      <label for="apellido">Apellidos</label>
+      <input  class="opcion2" name="apellido" type="text"  title="SOLO PUEDES INGRESAR LETRAS" pattern="[a-zA-ZáéíóúñÁÉÍÓÚÑ\s]+" title="" minlength="5" maxlength="25">
+    </div>
+    <br>
+    <div>
+      <label for="cedula">ID</label>
+      <input  class="opcion" name="cedula" type="number" min="1" id="cedula" >
+      <span id="cedulaError"></span>
+    </div>
+    <br>
+
+
+    <div class="row1">
+
+    <div>
+        <label for="carrera">Carrera</label>
+        <select class="opcion" name="carrera" id="carrera" >
+        <option value="Elige una opción" >Elige una opción</option>
+        <option value="IngSistemas">ING. Sistemas</option>
+        <option value="Turismo">Turismo</option>
+        <option value="Ciencia">Ciencia</option>
+        </select> 
+    </div>
+       
+       <br>
+    <div>
+      <label for="seccion">Sección</label>
+      <select class="opcion" name="seccion" id="seccion">
+      <option value="Elige una opción">Elige una opción</option>
+      </select>
+    </div>
+   </div>
+
+    <br>
+    <div class="row2">
+    <div>
+      <label for="materia">Asignatura</label>
+      <select class="opcion" id="asignatura" name="materia">
+      <option value="Elige una opción">Elige una opción</option>
+      </select>
+    </div>
+    <br>
+
+    <div>
+      <label for="profesor">Profesor</label>
+      <select class="opcion" id="profesor" name="profesor">
+      <option value="Elige una opción">Elige una opción</option>
+      </select>
+      </div>
+    </div>
+    <div>
+    <br>
+    <input class="container-registrar" id="container-registrar"   value="Registrar" type="submit">
+    </div>
+
+
+    </form>
+    </div>
+    </body>
+    
+    <script src="js/form.js"></script>
+   
+
+    
+    </html>
+
+
+
+
+
+
+
+
+

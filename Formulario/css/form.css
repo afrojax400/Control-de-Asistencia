@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    height: 100vh;
+    background-image: url(https://i.ibb.co/3yNhrG0/fondo-morado.webp);
+   
+}
+
+
+
+.container {
+   background-color: white;
+   width: 20rem;
+   padding: 1rem 4rem;
+   border-radius: 0.5rem;
+   border: solid 2px whitesmoke;
+  
+   
+    
+   
+}
+
+
+
+.form-container input[type="text"] {
+    border: 2px solid lightgray;
+    padding: 7px 5px;
+    border-radius: .375rem;
+    background-color:  white;
+   width: 100%;
+    
+}
+
+
+
+
+
+input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #6A5ACD;
+}
+
+.form-container input[type="number"] {
+    border: 2px solid lightgray;
+    padding: 7px 5px;
+    border-radius: .375rem;
+    background-color:  white;
+   width: 100%;
+    
+}
+
+.h1-logo {
+    display: flex;
+}
+
+
+
+
+img {
+    max-width: 40%;
+    height: auto;
+    
+    margin-left: 3rem;
+}
+
+
+input[type="number"]:focus {
+    outline: none;
+    border: 2px solid #6A5ACD;
+}
+
+
+
+
+
+
+h1 {
+    color: #6A5ACD;
+   
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+label {
+  font-size: 0.870rem;
+}
+
+span {
+    font-size: .850rem;
+    color: red;
+}
+
+.opcion {
+    margin: 5px;
+    display: block;
+    width: 160px;
+    border-radius: .375rem;
+    padding: 5px 5px;
+   
+ 
+}
+
+.opcion:focus {
+    outline: none;
+    border: 1px solid #6A5ACD;
+    
+    
+}
+
+.container-registrar {
+    background-color: #6A5ACD;
+    color: white;
+    border: none;
+    width: 15rem;
+    border-radius: 10rem;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.975rem;
+    margin-left: 4rem;
+}
+
+
+
+
+
+.container-registrar:hover{
+    background-color: #9485e7;
+ }
+
+ 
+ .row1 {
+    display: flex;
+ 
+    }
+
+    .row2 {
+        display: flex;
+        }
+
+       
+    @media screen and (max-width: 600px) {
+        .container {
+            margin: 5rem;
+            padding: 1rem 1rem;
+          
+  
+        }
+      }
+      
+
+      @media screen and (max-width: 600px) {
+        .img {
+            max-width: 35%;
+            height: auto;
+            margin-left: 5rem;
+          
+  
+        }
+      }
+
+
+      @media screen and (max-width: 600px) {
+        h1 {
+            color: #6A5ACD;
+            text-align: left;
+            font-size: 1.5rem;
+            margin-top: 3rem;
+  
+        }
+      }
+      
+
+      @media screen and (max-width: 600px) {
+        .form-container input[type="text"] {
+            border: 2px solid lightgray;
+            padding: 7px 5px;
+            border-radius: .375rem;
+            background-color: white;
+            width: 80%;
+        }
+      }
+      
+      @media screen and (max-width: 600px) {
+        .form-container input[type="number"]  {
+            border: 2px solid lightgray;
+            padding: 7px 5px;
+            border-radius: .375rem;
+            background-color: white;
+            width: 80%;
+        }
+      }
+      
+      @media screen and (max-width: 600px) {
+        .opcion  {
+            margin: 5px;
+            display: block;
+            width: 130px;
+            border-radius: .375rem;
+            padding: 5px 5px;
+        }
+      }
+      
+      @media screen and (max-width: 600px) {
+        .container-registrar {
+            background-color: #6A5ACD;
+            color: white;
+            border: none;
+            width: 15rem;
+            border-radius: 10rem;
+            padding: 1rem;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.975rem;
+            margin-left: 1.5rem;
+        }
+      }
+      
+
+      

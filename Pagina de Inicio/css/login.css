@@ -1,0 +1,181 @@
+       
+        *{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+
+}
+
+
+
+    body {
+       
+        font-family: "Roboto", sans-serif;
+        background-image: url(https://i.ibb.co/3yNhrG0/fondo-morado.webp);
+        height: 100vh;
+        
+    
+      
+       }
+
+
+ 
+
+
+   .container-sm {
+border-radius: 5px;
+background-color: white;
+width: 25rem;
+  margin: auto;
+
+  
+  
+
+
+
+   }
+
+
+    .form {
+        text-align: center;
+        display: flex;
+      flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       margin: 2rem;
+       padding: 3rem;
+      
+    }
+
+
+
+    .input-form {
+        border: 2px solid lightgray;
+       padding: 12px 25px;
+        border-radius: 8px;
+        background-color:  white;
+    
+       
+       
+    }
+
+    .input-container {
+       
+        margin-bottom: 0.8rem;
+        border: none;
+        width: auto;
+        
+      
+      position: relative;  
+    }
+
+    .input-container i{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+    }
+
+
+    .input-container.first {
+        margin-top: 1.5rem;
+    }
+
+.input-form:focus {
+border: 2px solid  #6A5ACD;
+outline: none;
+
+}
+
+.bx {
+  font-size: 1.7rem;
+  cursor: pointer;
+  margin-left: 11.5rem;
+}
+
+
+.input-form:focus ~ i {
+    color: #6A5ACD;
+}
+
+
+.boton-login {
+        background-color: #6A5ACD;
+        color: white;
+        border: none;
+        width: 15rem;
+        border-radius: 10rem;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+
+  .boton-login:hover {
+        background-color: #514d9e;
+       
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      color: #6A5ACD;
+    }
+    
+      .logo {
+        max-width: 65%;
+        height: auto;
+      margin-right: 1rem;
+        
+
+      }
+    .UNEFA {
+        max-width: 90%;
+        height: auto;
+        cursor: text;
+        margin-right: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .imagenes {
+      display: flex;
+    }
+
+  
+        
+    
+        
+    @media screen and (max-width: 768px) {
+      .container-sm {
+        width: 22rem;
+        
+        margin-bottom: 2rem;
+        
+        
+        
+
+      }
+    }
+    
+     
+    @media screen and (max-width: 768px) {
+      .UNEFA {
+         
+          max-width: 80%;
+          height: auto;
+          cursor: text;
+          margin-right: 5rem;
+          margin-bottom: 2rem;
+            
+    
+
+      }
+    }
+    
+    
+
