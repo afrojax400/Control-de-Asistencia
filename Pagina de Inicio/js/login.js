@@ -44,7 +44,7 @@
             title: 'Error',
             text: 'Por favor completa todos los campos',
             icon: 'error',
-            iconColor: 'reddd',
+            iconColor: 'red',
             
           });
   
